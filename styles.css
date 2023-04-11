@@ -1,0 +1,39 @@
+body {
+    background-image: url(images/bg_Argyle.jpg);
+
+}
+table,td,th{
+    border-color: red;
+    border: 1px solid;
+    color: red;
+}
+h2{
+    padding: 0px 10px;
+}
+.recipe,.watashino{
+    text-align: center;
+}
+.watashino p {
+    line-height: 10px;
+}
+.curryimage{
+    text-align: center;
+    
+}
+.red-text{
+    color: red;
+}
+.kakikukeko{
+    text-align: center;
+    
+}
+.kadomaru{
+    border: 1px solid gray;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+.test{
+    color: red;
+    color: aqua;
+}

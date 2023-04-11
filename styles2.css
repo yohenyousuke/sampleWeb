@@ -1,0 +1,76 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-style: oblique;
+    text-align: left;
+    background-image: url(images/v1022-23-b.jpg);
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.gazou {
+    font-size: larger;
+}
+
+.profile {
+    font-size: 200%;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    font-style: inherit;
+    background-color: seashell;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    border-radius: 50px;
+}
+
+.hobby,
+.nimaime,
+.sannmaime,
+.contact {
+    font-weight: 500;
+    font-size: 200%;
+    text-align: center;
+    background-color: seashell;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    border-radius: 50px;
+}
+
+.nimaime {
+    font-weight: 500;
+    font-size: 200%;
+    text-align: left;
+}
+
+.sannmaime {
+    font-weight: 500;
+    font-size: 200%;
+    text-align: left;
+}
+
+.tab1 {
+    display: inline-block;
+}
+
+b {
+    margin: auto 0;
+}
+
+.contact {
+    background-color: seashell;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    border-radius: 50px;
+}
+.dartsimage,
+.travelimage{
+    text-align: right;
+}

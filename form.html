@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>質問・感想フォーム</title>
+    <meta charaset="UTF-8">
+</head>
+
+<body>
+    <div class="kakikukeko">
+        <h1>質問・感想フォーム</h1>
+        <form action="result.html">
+            氏名<p><input type="text" neme="name1"></p>
+            <p>
+                性別
+            <p>
+            <div class="kadomaru">
+                <label><input type="radio" name="sei" value="male">男</label>
+            </div>
+            <div class="kadomaru">
+                <label><input type="radio" name="sei" value="female">女</label>
+            </div>
+            </p>
+            <p>
+                年齢
+            <p> <select name="年代"></p>
+            <option value="10代">10代</option>
+            <option value="20代">20代</option>
+            <option value="30代">30代</option>
+            <option value="40代">40代</option>
+            </p>
+            </select>
+            </p>
+            今後見てみたいレシピ
+            <p>
+            <div class="kadomaru"> <label><input type="checkbox" name="test" value="check">和食</label></div>
+            <div class="kadomaru"> <label><input type="checkbox" name="test" value="check">中華</label></div>
+            <div class="kadomaru"><label><input type="checkbox" name="test" value="check">洋食</label></div>
+            <div class="kadomaru"><label><input type="checkbox" name="test" value="check">イタリアン</label></div>
+            <div class="kadomaru"><label><input type="checkbox" name="test" value="check">スイーツ</label></div>
+            <div class="kadomaru"><label><input type="checkbox" name="test" value="check">その他</label></div>
+            </p>
+            <p>
+                自由コメント欄
+            </p>
+            <p>
+            <div style="position: relative;">
+                <textarea name="free" rows="5" cols="40" placeholder="自由に意見を記述してください。"></textarea>
+            </div>
+            </p>
+            <p>
+                <button type="submit">送信</button>
+                <button type="submit">取り消す</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
